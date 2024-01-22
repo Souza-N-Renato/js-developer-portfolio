@@ -32,23 +32,23 @@ function updateHardSkills(profileData) {
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
 }
 
-function updateEducation(profileData) {
-    const education = document.getElementById('profile.education')
-    education.innerHTML = profileData.education.map(education => `<li>${education}</li>`).join('')
-
-    function updateProfessionalExperience(profileData) {
-        const educationExperience = document.getElementById('profile.educationExperience')
-        educationExperience.innerHTML = profileData.educationExperience.map(experience => {
-            return `
-                <li>
-                    <h3 class="title">${experience.name}</h3>
-                    <p class="period">${experience.period}</p>
-                    <p>${experience.description}</p>
-                </li>
-            `
-        }).join('')
-    }
+function updateLanguages(profileData) {
+    const languages = document.getElementById('profile.languages')
+    languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
+
+function updateEducationExperience(profileData) {
+    const educationExperience = document.getElementById('profile.educationExperience')
+    educationExperience.innerHTML = profileData.educationExperience.map(experience => {
+        return `
+            <li>
+                <h3 class="title">${experience.name}</h3>
+                <p class="period">${experience.period}</p>
+            </li>
+        `
+    }).join('')
+}
+
 
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
@@ -81,6 +81,8 @@ function updateProfessionalExperience(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
+    updateEducationExperience(profileData)
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
+
 })()
