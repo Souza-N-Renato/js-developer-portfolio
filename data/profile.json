@@ -47,24 +47,23 @@
 
   "educationExperience": [
     {
-      "name": "Ciencia da computação ",
-      "period": "01/2021 - Até o momento"
+      "name": "Graduação Ciencia da computação ",
+      "period": "Unicarioca - 01/2021 - Até o momento"
     },
 
     {
       "name": "Formação em Html, Css, Javascript ",
-      "period": "2023-2024"
+      "period": "Certificado Dio 2023-2024"
     },
 
     {
       "name": "Formação React ",
-      "period": "2024"
+      "period": "Certificado Dio 2024"
     },
-
     
     {
-      "name": "Formação Nodeja ",
-      "period": "2024"
+      "name": "Formação Node.js ",
+      "period": "Certificado Dio 2024"
     }
   ],
 
