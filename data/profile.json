@@ -1,7 +1,7 @@
 {
   "name": "Renato N Souza",
   "photo": "https://avatars.githubusercontent.com/u/125743237?v=4",
-  "job": "Desenvolvedor",
+  "job": "Estudante de Ciência da Computação - Desenvolvimento Fullstack",
   "location": "Rio de Janeiro - RJ",
   "phone": "(21) 98386-3106",
   "email": "renatonasdesouza@gmail.com",
@@ -44,6 +44,30 @@
     "Português BR",
     "Inglês (intermediário)"
   ],
+
+  "educationExperience": [
+    {
+      "name": "Ciencia da computação ",
+      "period": "01/2021 - Até o momento"
+    },
+
+    {
+      "name": "Formação em Html, Css, Javascript ",
+      "period": "2023-2024"
+    },
+
+    {
+      "name": "Formação React ",
+      "period": "2024"
+    },
+
+    
+    {
+      "name": "Formação Nodeja ",
+      "period": "2024"
+    }
+  ],
+
   "portfolio": [
     {
       "name": "js-developer-pokedex",
@@ -54,13 +78,26 @@
       "name": "Landing-page-Youtube",
       "url": "https://github.com/Souza-N-Renato/Landing-page-Youtube",
       "github": true
+    },
+    {
+      "name": "Caixa-eletronico-Python-parte1",
+      "url": "https://github.com/Souza-N-Renato/Caixa-eletronico-Python-parte1",
+      "github":true
+    },
+    {
+      "name": "Landing_page_Dio_CSS ",
+      "url": "https://github.com/Souza-N-Renato/Landing_page_Dio_CSS",
+      "github": true
     }
+
+
+
   ],
   "professionalExperience": [
     {
-      "name": "Buscando primeira vaga na area",
+      "name": "Buscando a empresa que será a raiz de minha carreira",
       "period": "Até o momento",
-      "description": "A preencher aqui, com os projetos e experiências formidaveis que irei participar ."
+      "description": "Busco criar uma trajetória que eu possa me orgulhar da empresa e projetos desde o nivel estágiario aos outros níveis ."
     }
   ]
 }
