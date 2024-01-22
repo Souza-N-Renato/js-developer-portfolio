@@ -34,9 +34,9 @@
     ],
     "softSkills": [
  
-      "Controle de prazos",
-      "Tomada de decisões",
-      "Comunicação vertical e horizontal",
+      "Organização e gerenciamento de tempo",
+      "Trabalho em equipe",
+      "Comunicação assertiva",
       "Visão para otimização"
     ]
   },
@@ -70,7 +70,7 @@
   "portfolio": [
     {
       "name": "js-developer-pokedex",
-      "url": "https://github.com/Souza-N-Renato/js-developer-pokedex",
+      "url": "https://github.com/Souza-N-Renato/js-developer-pokedex/tree/com-pagina-detalhes",
       "github": true
     },
     {
